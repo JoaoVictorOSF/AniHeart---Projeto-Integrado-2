@@ -11,6 +11,7 @@ import { MangaDetailComponent } from './manga/manga-detail/manga-detail.componen
 import { MangaListComponent } from './manga/manga-list/manga-list.component';
 import { MangaFeaturedComponent } from './manga/manga-featured/manga-featured.component';
 import { FooterComponent } from './footer/footer.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './footer/footer.component';
     MangaDetailComponent,
     MangaListComponent,
     MangaFeaturedComponent,
-    FooterComponent
+    FooterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
