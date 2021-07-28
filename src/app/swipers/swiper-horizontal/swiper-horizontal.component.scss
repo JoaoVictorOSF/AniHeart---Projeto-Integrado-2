@@ -1,0 +1,9 @@
+@import "~swiper/swiper";
+@import "~swiper/components/lazy/lazy";
+@import "~swiper/components/pagination/pagination";
+@import "~swiper/components/navigation/navigation";
+.swiper-container {
+  width: 800px;
+  height: 250px;
+}
+

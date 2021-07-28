@@ -12,6 +12,12 @@ import { MangaListComponent } from './manga/manga-list/manga-list.component';
 import { MangaFeaturedComponent } from './manga/manga-featured/manga-featured.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
+import { AuthComponent } from './auth/auth.component';
+import { SwipersComponent } from './swipers/swipers.component';
+import { SwiperHorizontalComponent } from './swipers/swiper-horizontal/swiper-horizontal.component';
+import { SwiperVerticalComponent } from './swipers/swiper-vertical/swiper-vertical.component';
+import { SwiperHorizontalModule } from './swipers/swiper-horizontal/swiper-horizontal.module';
+
 
 @NgModule({
   declarations: [
@@ -24,11 +30,16 @@ import { LoginComponent } from './login/login.component';
     MangaListComponent,
     MangaFeaturedComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    AuthComponent,
+    SwipersComponent,
+
+    SwiperVerticalComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SwiperHorizontalModule
   ],
   providers: [],
   bootstrap: [AppComponent]
